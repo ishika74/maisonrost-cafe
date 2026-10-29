@@ -147,6 +147,19 @@ function App() {
         <a className="wordmark footer-wordmark" href="#home"><span className="wordmark-icon"><Coffee size={21} strokeWidth={1.5} /></span><span>maison<span className="wordmark-light">roast</span><small>COFFEE · KITCHEN · COMMUNITY</small></span></a>
         <span className="footer-note">SLOW DOWN. SIP SOMETHING GOOD.</span>
         <div className="footer-right"><span>© 2026 MAISON ROAST</span><a href="#home">BACK TO TOP ↑</a></div>
+        <footer className="footer">
+  <a className="wordmark footer-wordmark" href="#home"><span className="wordmark-icon"><Coffee size={21} strokeWidth={1.5} /></span><span>maison<span className="wordmark-light">roast</span><small>COFFEE · KITCHEN · COMMUNITY</small></span></a>
+  <span className="footer-note">SLOW DOWN. SIP SOMETHING GOOD.</span>
+  <div className="footer-right">
+    <span>© 2026 MAISON ROAST</span>
+    <a href="#home">BACK TO TOP ↑</a>
+  </div>
+
+  <p className="internship-credit">
+    Designed &amp; Developed as part of the{" "}
+    <strong>ApnoAi Web Development Internship</strong>.
+  </p>
+</footer>
       </footer>
     </div>
   );
